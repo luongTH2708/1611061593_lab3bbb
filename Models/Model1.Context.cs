@@ -28,5 +28,9 @@ namespace _1611061593_lab3.Models
         public virtual DbSet<View_Category> View_Category { get; set; }
         public virtual DbSet<View_News> View_News { get; set; }
         public virtual DbSet<View_news_cate_alias> View_news_cate_alias { get; set; }
+        public virtual DbSet<View_Article> View_Article { get; set; }
+        public virtual DbSet<Article> Articles { get; set; }
+        public virtual DbSet<Category> Categories { get; set; }
+        public virtual DbSet<News> News { get; set; }
     }
 }

@@ -8,6 +8,11 @@
         <EntityTypeShape EntityType="ThucHanhTMDTModel.View_Category" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
         <EntityTypeShape EntityType="ThucHanhTMDTModel.View_News" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
         <EntityTypeShape EntityType="ThucHanhTMDTModel.View_news_cate_alias" Width="1.5" PointX="6.5" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ThucHanhTMDTModel.View_Article" Width="1.5" PointX="0.75" PointY="3.75" />
+        <EntityTypeShape EntityType="ThucHanhTMDTModel.Article" Width="1.5" PointX="0.75" PointY="7.75" />
+        <EntityTypeShape EntityType="ThucHanhTMDTModel.Category" Width="1.5" PointX="3.75" PointY="4" />
+        <EntityTypeShape EntityType="ThucHanhTMDTModel.News" Width="1.5" PointX="6" PointY="3.875" />
+        <AssociationConnector Association="ThucHanhTMDTModel.FK_News_Category" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>
